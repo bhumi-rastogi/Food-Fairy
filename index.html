@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Food Fairy</title>
+</head>
+<body>
+  <div>
+    <h1>
+     Welcome To Food Fairy
+    </h1>
+  </div>
+  <main>
+    <p>
+      <i>"Food is more than just sustenance; it is an expression of culture, heritage, and creativity."</i> <b>- José Andrés.</b>
+      <br>
+      <br>
+      Food is not merely sustenance, but a tapestry interwoven with our identities, traditions, and culinary prowess.
+    </p>
+  </main>
+
+  <div>
+    <input id="inputCategory" type="search" placeholder="🔍 Search & enjoy !!" class="write"/>
+  
+    <button class="click" onclick="fetchAllMealsForCategory()">Search</button>
+  </div>
+      
+
+  <h2>
+    Meal Of The Day
+  </h2>
+  <div id="random">
+
+  </div>
+  
+  <hr>
+
+  <div id="searched">
+
+  </div>
+
+
+  <div id="ingredientsModal">
+    <div class="content">
+      <span class="cross" onclick="closeModal()">
+        X
+      </span>
+      <h4>
+        Ingredients
+      </h4>
+    </div>
+  </div>
+<hr>
+  <footer>
+    <p>Made By Kalvian ❤️</p>
+      <p>by~BHUMI
+    </p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
